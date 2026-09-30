@@ -134,6 +134,7 @@ a {
 .commsContainer {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 16px;
 }
 
 .comms {
@@ -146,6 +147,16 @@ a {
     font-weight: bold;
 }
 
+.comms a {
+    color: whitesmoke;
+}
 .comms img {
     width: 30px;
+}
+
+.creds {
+    font-size: larger;
+}
+.creds a {
+    color: darkcyan;
 }

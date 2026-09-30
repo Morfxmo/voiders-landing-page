@@ -56,9 +56,22 @@ a {
 
 /* Home */
 #home {
-    background-color: black;
+    background-color: rgb(25, 24, 24);
     color: white;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#home .quote {
+    font-size: 32px;
+    margin: 0;
+    max-width: 260px;
+    font-style: italic;
+    margin: 10px;
 }
 
 /* Lectures */
@@ -68,11 +81,21 @@ a {
     height: 200px;
 }
 
+#lectures .title {
+    font-size: 32px;
+    text-align: center;
+}
+
 /* Practice */
 #practice {
     background-color: black;
     color: white;
     height: 200px;
+}
+
+#practice .title {
+    font-size: 32px;
+    text-align: center;
 }
 
 /* Footer */
